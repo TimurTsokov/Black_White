@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
 * {
@@ -14,3 +14,104 @@ html {
 html, body {
     min-height: 100%;
 }
+
+body {
+    width: 1230px;
+    margin: 0 auto;
+    font-size: 10px;
+    color: #303030;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    margin: 4.5em 0 10.5em 0;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+
+}
+
+.menu {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 18px;
+    list-style-type: none;
+    width: calc(100% - 277px);
+    font-weight: 400;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 0.5rem 2.5rem;
+}
+
+.menu a,
+.menu a:active {
+    text-decoration: none;
+    color: #303030;
+}
+
+.menu li:last-of-type a {
+    padding-right: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.float-left {
+
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+
+}
+
+.float-left h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    margin: 0 0 52px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 150px;
+
+}
+
+.float-left p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.float-left a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e10011;
+    text-decoration: none;
+}
+
+.float-left a:hover,
+.float-left a:focus {
+    text-decoration: underline;
+}
+
+.float-right {
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
