@@ -4,6 +4,7 @@
 /*font-family: 'Raleway', sans-serif;*/
 * {
     box-sizing: border-box;
+    transition: all .5s ease-in;
 }
 
 html {
@@ -145,4 +146,85 @@ h1 {
     background: #e10011;
     cursor: pointer;
 }
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+    padding-top: 114px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.under-img {
+    padding: 22px 0 12px 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 310px;
+}
+
+.images {
+    padding: 72px;
+}
+
+.images-row > .img {
+    padding: 0 40px 40px 0;
+
+}
+
+.images-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img {
+    position: relative;
+    border-radius: 5px;
+}
+
+.img:hover .img-overlay,
+.img:focus .img-overlay {
+    display: block;
+
+}
+
+.img-overlay {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: #e10011;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+
+}
+
+span {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #ffffff;
+    word-wrap: break-word;
+
+}
+
+
 
