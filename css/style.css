@@ -3,148 +3,146 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  height: 100%;
-  background: #eeeeee;
+    height: 100%;
+    background: #eeeeee;
 }
 
 html, body {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 body {
-  width: 1230px;
-  margin: 0 auto;
-  font-size: 10px;
-  color: #303030;
+    width: 1230px;
+    margin: 0 auto;
+    font-size: 10px;
+    color: #303030;
 }
 
 header {
-  font-family: 'Roboto', sans-serif;
-  color: #303030;
-  margin: 4.5em 0 10.5em 0;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    margin: 4.5em 0 10.5em 0;
 }
 
 h1 {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 48px;
-  margin: 0;
-  font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
 
 }
 
 .menu {
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: right;
-  font-size: 18px;
-  list-style-type: none;
-  width: calc(100% - 277px);
-  font-weight: 400;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 18px;
+    list-style-type: none;
+    width: calc(100% - 277px);
+    font-weight: 400;
 }
 
 .menu li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .menu li a {
-  padding: 0.5rem 2.5rem;
+    padding: 0.5rem 2.5rem;
 }
 
 .menu a,
 .menu a:active {
-  text-decoration: none;
-  color: #303030;
+    text-decoration: none;
+    color: #303030;
 }
 
 .menu li:last-of-type a {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .container {
-  width: 100%;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 103px;
 }
 
 .float-left {
 
-  width: 50%;
-  display: inline-block;
-  text-align: right;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
 
 }
 
 .float-left h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 150px;
-  margin: 0 0 52px 0;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    margin: 0 0 52px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 150px;
 
 }
 
 .float-left p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
 }
 
 .float-left a {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #e10011;
-  text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e10011;
+    text-decoration: none;
 }
 
 .float-left a:hover,
 .float-left a:focus {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .float-right {
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
-  width: 49%;
-  display: inline-block;
-  text-align: center;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%);
+    width: 50%;
+    display: inline-block;
+    text-align: center;
 }
 
 .pages {
-  text-align: center;
-  margin: 85px 0 0 0;
-  padding: 0;
-
+    text-align: center;
+    margin: 85px 0 0 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .pages li {
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  border-radius: 50%;
-  background-color: #303030;
-  margin-right: 9px;
-  margin-bottom: 103px;
-
+    display: inline-block;
+    margin-right: 9px;
 }
 
 .pages li a {
-  text-decoration: none;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #303030;
 }
 
-.pages li:first-child {
-  background-color: #e10011;
-}
-
-.pages li:hover,
-.pages li:focus {
-  background-color: #e10011;
-  cursor: pointer;
+.pages li a:hover,
+.pages li a:focus,
+.pages li a:active,
+.pages li.active a {
+    background: #e10011;
+    cursor: pointer;
 }
 
