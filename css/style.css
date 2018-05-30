@@ -290,7 +290,8 @@ footer > p {
 
 .footer-form button:hover,
 .footer-form button:active {
-  background: #303030;
+  background: #979797;
+  color: #e10011;
 }
 
 .links a {
