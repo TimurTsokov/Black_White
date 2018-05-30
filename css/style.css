@@ -286,6 +286,7 @@ footer > p {
   box-sizing: border-box;
   min-height: 68px;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .footer-form button:hover,
