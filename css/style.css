@@ -226,8 +226,120 @@ span {
   padding-bottom: 5px;
   border-bottom: 5px solid #ffffff;
   word-wrap: break-word;
-
 }
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  /*width: 100%;*/
+  margin: 95px auto 30px;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+footer > p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 310px;
+  line-height: 25px;
+}
+
+.footer-form {
+  margin-bottom: 100px;
+}
+
+.footer-form input {
+  color: #979797;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 24px;
+  text-align: left;
+  padding: 28px 0 28px 70px;
+  border-radius: 50px 0 0 50px;
+  box-sizing: border-box;
+  width: 35%;
+  background: #fff url(../img/mail.jpg) no-repeat 10% 50%;
+  border: 2px solid transparent;
+}
+
+.footer-form input:hover,
+.footer-form input:focus {
+  border-color: #e10011;
+}
+
+.footer-form button {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px 44px 30px 58px;
+  background: #e10011;
+  text-transform: uppercase;
+  border-radius: 0 50px 50px 0;
+  margin: -5px;
+  box-sizing: border-box;
+  min-height: 68px;
+  border: 2px solid transparent;
+}
+
+.footer-form button:hover,
+.footer-form button:active {
+  background: #303030;
+}
+
+.links a {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 20px;
+  color: #979797;
+  background-color: #ffffff;
+}
+
+.links i {
+  font-size: 35px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.links a:hover,
+.links a:focus {
+  background-color: #5C7A72;
+}
+
+.links a:hover i,
+.links a:focus i {
+  color: #ffffff;
+}
+
+.copyright p {
+  color: #979797;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 35px;
+}
+
+.copyright a {
+  color: #303030;
+  text-decoration: none;
+}
+
+
+
+
 
 
 
