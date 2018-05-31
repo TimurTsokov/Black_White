@@ -200,7 +200,6 @@ h1 {
 .img:hover .img-overlay,
 .img:focus .img-overlay {
   display: block;
-
 }
 
 .img-overlay {
