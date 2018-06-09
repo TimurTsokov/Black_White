@@ -206,6 +206,9 @@ h1 {
     width: 100%;
 }
 
+.img img {
+  width: 100%;
+}
 .img {
     text-align: center;
     margin: 20px;
